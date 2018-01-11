@@ -37,7 +37,7 @@ import java.util.Map;
 public class RESTClient {
 
   // REST paths for the calls we want to make - suffixed onto the "restAPIUrl
-  private static final String REST_SEARCH_PATH = "/search?jql";
+  private static final String REST_SEARCH_PATH = "/issues?jql";
   private static final String REST_CREATE_VERSION_PATH = "/version";
   private static final String REST_ADD_COMMENT_PATH = "/issue/{issue-key}/comment";
   private static final String REST_UPDATE_STATUS_PATH = "/issue/{issue-key}/transitions";
